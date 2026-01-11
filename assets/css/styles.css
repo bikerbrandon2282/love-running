@@ -88,8 +88,38 @@ main {
   background-color: lightblue;
   /*Make main element take up any surplus space*/
   flex: 1 0 auto;
+  margin-top: 47px;
 }
 /* Footer */
 footer {
   background-color: orange;
+}
+/*Media Query: tablets and up*/
+@media screen and (min-width: 768px) {
+  nav {
+    position: relative;
+    box-shadow: none;
+    display: block;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+  #menu {
+    display: flex;
+    gap: 2rem;
+  }
+  #menu > li {
+    padding-left: 1rem
+  }
+    .nav-toggle-label {
+    display: none;
+  }
+  #logo {
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
+  /*Adjust main margin to account for larger header*/
+  main {
+    margin-top: 79px;
+  }
 }
