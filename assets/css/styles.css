@@ -91,8 +91,17 @@ main {
   margin-top: 47px;
 }
 /* Footer */
-footer {
-  background-color: orange;
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
 }
 /*Media Query: tablets and up*/
 @media screen and (min-width: 768px) {
@@ -108,9 +117,9 @@ footer {
     gap: 2rem;
   }
   #menu > li {
-    padding-left: 1rem
+    padding-left: 1rem;
   }
-    .nav-toggle-label {
+  .nav-toggle-label {
     display: none;
   }
   #logo {
@@ -125,7 +134,7 @@ footer {
 }
 /* Large devices (laptops and desktops) */
 @media screen and (min-width: 992px) {
-  #menu a:hover{
+  #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
   }
 }
