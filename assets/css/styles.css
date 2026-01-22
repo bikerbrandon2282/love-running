@@ -246,7 +246,7 @@ hr {
   }
 }
 #times{
-  background: url("../images/dublin-city.webp") no-repeat center/cover;
+  background: url("../images/dublin-city.webp") no-repeat center center/cover;
   /*Handles Responsitivity without the need for a media query*/
   display: flex;
   flex-wrap: wrap;
