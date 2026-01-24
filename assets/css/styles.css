@@ -116,6 +116,14 @@ main {
 #cover-text > h3 {
   color: #ffffff;
 }
+/*Gallery Styles*/
+#photos {
+  line-height: 0;
+}
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
 /* Footer */
 #social-networks {
   text-align: center;
