@@ -244,13 +244,8 @@ hr {
     align-self: flex-end;
   }
 }
-<<<<<<< HEAD
 #times {
   background: url("../images/dublin-city.webp") no-repeat center/cover;
-=======
-#times{
-  background: url("../images/dublin-city.webp") no-repeat center center/cover;
->>>>>>> 728e95401c56deb85ab6b73deca2c16a97005ab7
   /*Handles Responsitivity without the need for a media query*/
   display: flex;
   flex-wrap: wrap;
@@ -269,9 +264,5 @@ hr {
 }
 #times h3 {
   /*Overwrite general color to make heading stand out*/
-<<<<<<< HEAD
   color: #fafafa;
-=======
-  color:#fafafa;
->>>>>>> 728e95401c56deb85ab6b73deca2c16a97005ab7
 }
